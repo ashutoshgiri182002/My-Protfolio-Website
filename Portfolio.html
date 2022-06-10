@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+        
+</head>
+<body>
+    <nav class="navbar">
+        <label>Ashutosh</label>
+        <input type="checkbox" id="click">
+        <label id="menu" for="click">
+            <img src="bx-menu.svg">
+        </label>
+        <ul>
+            <li><a id="home" href="#">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#skilldiv">Skills</a></li>
+            <li><a href="#mywork">Achievements</a></li>
+            <li><a href="#contactme">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <div id="mainpage">
+        <div id="about">
+            <p>Hi</p>
+            <p>I'am <span id="rahul">Ashutosh</span> </p>
+            <p>A CS Student</p>
+            <div>
+                <a href="Resume-Ashutosh-Kumar-Giri.pdf" target="_blank">
+                <button id ="button">Download CV</button></a>
+           
+            </div>
+            <div class="socialmedia_top">
+                <a href="https://www.linkedin.com/in/ashutosh-kumar-giri-108b60203/" target="_blank"><i class="topicon fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/ashutoshgiri182002" target="_blank"> <i class="topicon fab fa-github"> </i></a>
+                <a href="https://www.hackerrank.com/ashutoshgiri1821?hr_r=1" target="_blank"><i class="topicon fab fa-hackerrank"></i></a>
+            </div>
+        </div>
+
+        <div id="profile">
+            <img src="Profile_pic.jpg" id="profilepic">
+        </div>
+        
+    </div>
+
+    <div id="aboutme"><p class="heading">About</p></div>
+
+    <div id="aboutdiv">
+        <div id="profile2" class="halfwidth center"><img src="Profile_pic2.jpeg" id="profilepic2"></div>
+        <div id="about2" class="halfwidth center">
+            <h2>I'am Ashutosh</h2>
+            <p>Hey everyone, I'm Ashutosh kumar giri, at MAIT CSE. Passionate about tech,love physics and maths and love interacting with new people.
+                I am currently working my way up to become a great competitive coder, learning, understanding and strengthening.
+                Apart from CP ,I'm always looking for something new and logical things, and currently learn web developement.</p>
+               
+        </div>
+       
+    </div>
+
+    <div id="skilldiv"><p class="heading">Skills</p></div>
+
+    <div>
+        <div class="flex">
+            <div id="proskills" class="halfwidth">
+                <h2>Professional Skills</h2>
+                <p>In the journey of my btech i learnt some skills which i show below. 
+                    And it is not enough i always learn something new and the learning of skills is in progress.!</p>
+
+                <div id="skills">
+                    <div class="skillset">
+                        <span>C++ and  DSA</span> 
+                    </div>
+                    <div class="skillset">
+                        <span>HTML5</span> <span>95%</span>
+                    </div>
+                    <div class="skillset">
+                        <span>CSS3</span> <span>85%</span>
+                    </div>
+                    <div class="skillset">
+                        <span>JavaScript</span> <span>70%</span>
+                    </div>
+                    <!-- <div class="skillset">
+                        <span>UI/UX</span> <span>80%</span>
+                    </div> -->
+
+                </div>
+                
+            </div>
+
+            <div class="halfwidth">
+                <img src="skill.jpg" id="skillpic">
+            </div>
+        </div>
+    </div>
+
+    <div id="mywork"><p class="heading">Achievements</p></div>
+
+    <div id="workdiv">
+        <img src="Excellence_award.jpeg" class="workpic">
+        <img src="SOMT.jpeg" class="workpic">
+        <img src="DOE.jpeg" class="workpic">
+        <img src="A1_certificate.jpeg" class="workpic">
+        <img src="ITS.jpeg" class="workpic">
+        <img src="AICT.png" class="workpic">
+    </div>
+
+    <div id="contactme"><p class="heading">Contact</p></div>
+
+    <div id="contactdiv">
+        <form method = "post" action="" class="contactform">
+            <input type="text" name="name" id="name" placeholder="Name"> <br>
+            <input type="email" name="email" id="email" placeholder="Email" > <br>
+            <input type="number" name="phoneno" id="phoneno" placeholder="Phone No" > <br>
+            <textarea name="message" id="message" cols="50" rows="10" placeholder="Message..." ></textarea> <br>
+            <input id="button" type="submit" value="Send">
+            
+        </form>
+    </div>
+
+
+    <div id="footerdiv">
+        <div id="footercontent">
+            <h1>Ashutosh</h1>
+            <div class="socialmedia_bottom">
+                <a href="https://www.facebook.com/ashutoshkumar.giri.98" target="_blank"><i class="bottomicon fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/ashutoshgiri_official/" target="_blank"><i class="bottomicon fab fa-instagram"></i></a>
+                <a href="https://twitter.com/ASHUTOS14398049" target="_blank"><i class="bottomicon fab fa-twitter"></i></a>
+            </div>
+
+            <h4>&copy Ashucode. All rights reserved</h4>
+        </div>
+    </div>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
