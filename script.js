@@ -1,7 +1,5 @@
-function sendMail(e){
-
-    e.preventDefault();
-
+function sendMail(){
+    
     const name = document.querySelector('#name').value;
     const email = document.querySelector('#email').value;
     const phoneno = document.querySelector('#phoneno').value;
